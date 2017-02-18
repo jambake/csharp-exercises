@@ -11,7 +11,7 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             string message = GetMessage("fr");
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(message);
             Console.ReadLine();
         }
 
