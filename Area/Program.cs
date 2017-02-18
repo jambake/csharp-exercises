@@ -9,7 +9,6 @@ namespace Area
     {
         public static void Main(string[] args)
         {
-            //Area = pi * r * r;
             double area;
             double radius;
 
