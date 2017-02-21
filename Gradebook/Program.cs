@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 using System.Linq;
 
 namespace Gradebook
@@ -32,16 +33,19 @@ namespace Gradebook
             }
 
             // print roster
+            StringBuilder myString = new StringBuilder();
+
             Console.WriteLine("Student roster:");
             for (int i = 0; i < students.Count; i++)
             {
-                Console.WriteLine(students[i] + " (" + grades[i] + ")");
+                myString.Append(students[i] + " (" + grades[i] + ")\n");
             }
+            Console.WriteLine(myString);
 
             double sum = grades.Sum();
             double avg = sum / grades.Count;
             Console.WriteLine("Average grade: " + avg);
-
+            
             Console.ReadLine();
         }
     }

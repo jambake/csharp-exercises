@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -28,6 +29,7 @@ namespace GradebookDict
             while (newStudent != "");
 
             // print roster
+            
             Console.WriteLine("Student roster:");
             foreach (KeyValuePair<string, double> student in students)
             {
@@ -39,6 +41,7 @@ namespace GradebookDict
             Console.WriteLine("Average grade: " + avg);
 
             Console.ReadLine();
+            
         }
     }
 }
