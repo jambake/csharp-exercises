@@ -46,7 +46,7 @@ namespace WorkingWithStrings
                 myString.Append("--");
                 myString.Append(i);
             }
-
+            
             Console.WriteLine(myString);
             Console.ReadLine();
         }
