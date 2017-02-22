@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace CountingChars
 {
@@ -15,7 +16,7 @@ namespace CountingChars
             //string input = Console.ReadLine();
             
 
-            string input = System.IO.File.ReadAllText(@"C:\Users\User\Dropbox\lc101\test.txt");
+            string input = File.ReadAllText(@"C:\Users\User\Dropbox\lc101\test.txt");
             //input = input.ToLower();
             string alphabet = " ,.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
             //string alphabet = "abcdefghijklmnopqrstuvwxyz";
