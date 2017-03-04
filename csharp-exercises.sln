@@ -45,6 +45,10 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CountingChars", "CountingCh
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CountingWords", "CountingWords\CountingWords.xproj", "{4F6E67F8-60BC-4B27-8A0F-5A5E2F030DE4}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SimpleClasses", "SimpleClasses\SimpleClasses.xproj", "{F02990D9-CAB1-48A4-BFC0-E7804E01B552}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ObjectLifetime", "ObjectLifetime\ObjectLifetime.xproj", "{A5ADDEBD-783B-42D8-953B-28CF7CC7A4DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{4F6E67F8-60BC-4B27-8A0F-5A5E2F030DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F6E67F8-60BC-4B27-8A0F-5A5E2F030DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F6E67F8-60BC-4B27-8A0F-5A5E2F030DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F02990D9-CAB1-48A4-BFC0-E7804E01B552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02990D9-CAB1-48A4-BFC0-E7804E01B552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02990D9-CAB1-48A4-BFC0-E7804E01B552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02990D9-CAB1-48A4-BFC0-E7804E01B552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5ADDEBD-783B-42D8-953B-28CF7CC7A4DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5ADDEBD-783B-42D8-953B-28CF7CC7A4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5ADDEBD-783B-42D8-953B-28CF7CC7A4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5ADDEBD-783B-42D8-953B-28CF7CC7A4DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
