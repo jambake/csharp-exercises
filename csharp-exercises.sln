@@ -53,6 +53,10 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Restaurant", "Restaurant\Re
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "School", "School\School.xproj", "{AFA025BB-9765-4394-BF95-B154221EDF14}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Cats", "Cat\Cats.xproj", "{D9F0DDBE-7E2A-4EF9-93B8-17394ED2066B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "QuizTime", "QuizTime\QuizTime.xproj", "{A95D87EB-0AC6-4C3E-9EB2-C2A3DA9585CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +163,14 @@ Global
 		{AFA025BB-9765-4394-BF95-B154221EDF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFA025BB-9765-4394-BF95-B154221EDF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFA025BB-9765-4394-BF95-B154221EDF14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F0DDBE-7E2A-4EF9-93B8-17394ED2066B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F0DDBE-7E2A-4EF9-93B8-17394ED2066B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F0DDBE-7E2A-4EF9-93B8-17394ED2066B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F0DDBE-7E2A-4EF9-93B8-17394ED2066B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A95D87EB-0AC6-4C3E-9EB2-C2A3DA9585CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95D87EB-0AC6-4C3E-9EB2-C2A3DA9585CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95D87EB-0AC6-4C3E-9EB2-C2A3DA9585CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95D87EB-0AC6-4C3E-9EB2-C2A3DA9585CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
