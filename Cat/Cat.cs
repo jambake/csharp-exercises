@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace Cats
 {
-    public abstract class Cat
+    public abstract class Cat : IFeedable
     {
+        public int Age { get; set; }
         public bool IsTired { get; set; } = false;
         public bool IsHungry { get; set; } = false;
         public double Weight { get; set; }
