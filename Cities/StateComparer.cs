@@ -10,7 +10,8 @@ namespace Cities
     {
         public int Compare(City x, City y)
         {
-            return ((new CaseInsensitiveComparer()).Compare(x.Name, y.Name));
+            return string.Compare(x.State, y.State);
+            //((new CaseInsensitiveComparer()).Compare(x.Name, y.Name));
         }
     }
 }

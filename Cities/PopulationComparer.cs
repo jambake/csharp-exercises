@@ -9,7 +9,7 @@ namespace Cities
     {
         public int Compare(City x, City y)
         {
-            return x.Population - y.Population;
+            return y.Population - x.Population;
         }
     }
 }

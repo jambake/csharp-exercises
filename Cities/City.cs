@@ -18,6 +18,11 @@ namespace Cities
             State = state;
         }
 
+        public override string ToString()
+        {
+            return string.Format("{0, -20}{1, -24}{2, -10}", Name, State, Population);
+        }
+
         static private List<City> cities = new List<City>();
 
         public static IList<City> GetSortByName()

@@ -26,9 +26,27 @@ namespace Cities
             cities.Add(chicago);
             cities.Add(newOrleans);
 
-            Console.WriteLine(City.GetSortByName());
+            //IComparer<City> comparer = new NameComparer();
+
+            CompoundComparer comparer = new CompoundComparer();
+            comparer.Comparers.Add(new NameComparer());
+            comparer.Comparers.Add(new StateComparer());
+
+            cities.Sort(comparer);
+            
+           // Console.WriteLine(City.GetSortByName());
 
             Console.ReadLine();
+        }
+
+        private static void PrintCities(List<City> cities)
+        {
+            Console.WriteLine(City.GetTableHeader());
+
+            foreach(var city in cities)
+            {
+                Console.WriteLine(city);
+            }
         }
     }
 }
